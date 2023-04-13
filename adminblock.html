@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Block User</title>
+    <style>
+        .regal-bank {
+            background-color: maroon;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .regal-bank h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f1f1f1;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            border: 1px solid #333333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            background-color: white;
+        }
+
+        option {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #333333;
+        }
+
+        button[type="submit"] {
+            background-color: #ff4d4d;
+            color: antiquewhite;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #cc0000;
+            color: antiquewhite
+        }
+
+        .welcome {
+            font-size: 36px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .square {
+            font-family: Helvetica;
+            font-size: 186x;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="regal-bank">
+        <h1><a href="adminhome.html">Regal Bank</a></h1>
+    </div>
+    <div class="box">
+        <div class="welcome">Block a User</div>
+        <div class="square">
+            <form>
+                <label for="user">Select a user:</label>
+                <select id="user" name="user">
+                    <option value="Gurveen">Gurveen</option>
+                    <option value="Taha">Taha</option>
+                    <option value="Kelsi">Kelsi</option>
+                    <option value="Bhavita">Bhavita</option>
+                    <option value="Dharshini">Dharshini</option>
+                    <option value="Japneet">Japneet</option>
+                </select>
+                <br>
+                <button type="submit">Block User</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
